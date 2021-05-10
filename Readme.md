@@ -105,7 +105,7 @@ as `args` in your `docker-compose.override.yml` and run `docker-compose build`.
 ## To run with docker-compose
 
 ```bash
-git clone git clone --branch 20.04 https://github.com/kemotf/ubuntu-xrdp.git
+git clone --branch 20.04 https://github.com/kemotf/ubuntu-xrdp.git
 cd ubuntu-xrdp/
 nano docker-compose.override.yml # if you want to override any default value
 docker-compose up -d
