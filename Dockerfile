@@ -1,5 +1,5 @@
 FROM ubuntu:20.04 as builder
-MAINTAINER Daniel Guerra
+MAINTAINER TF
 
 # Install packages
 
