@@ -45,7 +45,6 @@ RUN add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) par
 RUN apt -y full-upgrade && apt-get install -y \
   ca-certificates \
   crudini \
-  firefox \
   less \
   locales \
   openssh-server \
